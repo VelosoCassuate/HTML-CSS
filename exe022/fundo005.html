@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style> 
+        #baixo{ 
+            background-color: red;
+            width:96vh;
+            height:95vh;
+            padding:10px;
+            margin:auto;
+            background-size: 100% 100%;
+
+            position:relative;
+        }
+        #cima{
+            background-color:black;
+            width:300px;
+            height:200px;
+            background-size: 100% 100%;
+
+            position: absolute;
+            left:50%;
+            top: 50%;
+
+            transform:translate(-50%,-50%)
+        }
+    </style>
+</head>
+<body>
+    <article id="baixo">
+        <section id="cima">
+
+        </section>
+    </article>
+</body>
+</html>
