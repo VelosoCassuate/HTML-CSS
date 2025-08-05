@@ -1,34 +1,33 @@
-table{
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-    }
-    td, th{
-        border: 1px solid black;
-        width: 100px;
-    }
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  width: 100px;
+}
 
-    thead{
-        background-color: lightslategray;
-        padding: 7px;
-        text-align: center;
-        height: 50px;
-    }
-    td.posicao{
-        width: 70px;
-        padding: 7px;
-        text-align: center;
-    }
-    td.cidade{
-        width: 150px;
-        padding:7px;
-
-    }
-
-    td.populacao{
-        padding: 7px;
-        text-align: right;
-    }
-    td.percentagem{
-        padding: 7px;
-        text-align: center;
-    }
+thead {
+  background-color: lightslategray;
+  padding: 7px;
+  text-align: center;
+  height: 50px;
+}
+td.posicao {
+  width: 70px;
+  padding: 7px;
+  text-align: center;
+}
+td.cidade {
+  width: 150px;
+  padding: 7px;
+}
+td.populacao {
+  padding: 7px;
+  text-align: right;
+}
+td.percentagem {
+  padding: 7px;
+  text-align: center;
+}
